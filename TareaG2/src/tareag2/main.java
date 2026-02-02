@@ -19,8 +19,12 @@ public class main {
         
         String nombre, apellido, correo, direccion = "";
         int telefono = 0;
-        validacion calc = new validacion(); //Si no se cual es el error, debe escribir Exception //Siempre debe haber un Exception e 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Ingrese su nombre y apellido");
+        nombre = sc.nextLine();
+        
+        validacion calc = new validacion(); //Si no se cual es el error, debe escribir Exception //Siempre debe haber un Exception e 
+
 
         try {
             System.out.println("Bienvenido a la prueba Try Catch");
