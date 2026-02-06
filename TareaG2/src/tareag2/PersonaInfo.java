@@ -19,5 +19,10 @@ public class PersonaInfo {
         this.telefono = telefono;
         this.direccion = direccion;
     }
+    // sin este codigo Al final se imprime "tareag2.PersonaInfo@4d405ef7" en main
+    @Override 
+    public String toString(){
+    return "Nombre: " + nombre + " " +  "Apellido: " + apellido + " "  + "Correo: " + correo  + " "  + "Telefono: " + telefono + " "  + "Direccion: " +direccion;
+    }//fin override 
     
 }
